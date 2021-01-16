@@ -56,15 +56,31 @@
 		7A41118625B33A0200D33AE3 /* League Role Prediction */ = {
 			isa = PBXGroup;
 			children = (
+				7A4111A225B3526900D33AE3 /* Controller */,
+				7A4111A125B3522800D33AE3 /* View */,
 				7A41118725B33A0200D33AE3 /* AppDelegate.swift */,
 				7A41118925B33A0200D33AE3 /* SceneDelegate.swift */,
-				7A41118B25B33A0200D33AE3 /* ViewController.swift */,
-				7A41118D25B33A0200D33AE3 /* Main.storyboard */,
 				7A41119025B33A0300D33AE3 /* Assets.xcassets */,
 				7A41119225B33A0300D33AE3 /* LaunchScreen.storyboard */,
 				7A41119525B33A0300D33AE3 /* Info.plist */,
 			);
 			path = "League Role Prediction";
+			sourceTree = "<group>";
+		};
+		7A4111A125B3522800D33AE3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A41118D25B33A0200D33AE3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A4111A225B3526900D33AE3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A41118B25B33A0200D33AE3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
