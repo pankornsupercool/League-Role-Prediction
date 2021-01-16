@@ -31,8 +31,13 @@ class ViewController: UIViewController {
         aboutButton.layer.borderWidth = 2
         aboutButton.layer.borderColor = UIColor.black.cgColor
         aboutButton.setTitleColor(.black, for: .normal)
-
+        
 
 }
-
+    @IBAction func didTapButton(){
+        guard let vc = storyboard?.instantiateViewController(identifier: "SecondView") as? SecondViewController else {
+            return
+        }
+        present(vc,animated: true)
+    }
 }
